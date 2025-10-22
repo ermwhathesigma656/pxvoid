@@ -258,6 +258,17 @@ const games = [
     isNew: true,
     recommended: true,
   },
+  {
+    id: 21,
+    title: "Kindergarden 2",
+    plays: 35000,
+    description: "idk what to say rlly",
+    tags: ["Kindergarden", "Kids", "Chaos"],
+    image: "/446.png",
+    gradient: "from-blue-500/20 to-green-500/20",
+    isNew: true,
+    recommended: true,
+  },
 ]
 
 function formatPlayCount(count: number): string {
@@ -550,6 +561,8 @@ export default function HomePage() {
       window.location.href = "/games/19/index.html"
     } else if (gameId === 20) {
       window.location.href = "/games/20/index.html"
+    } else if (gameId === 21) {
+      window.location.href = "/games/21/index.html"
     } else {
       window.location.href = `/games/${gameId}/index.html`
     }
