@@ -17,32 +17,32 @@ interface Notification {
 const notifications: Notification[] = [
   {
     id: 1,
+    title: "Update",
+    message: "Added a ton of new games, some games such as geometry dash, sonic robo blast, deltarune might not work for some people.",
+    timestamp: Date.now() - 3 * 24 * 60 * 60 * 1000, // 3 days ago
+  },
+  {
+    id: 2,
     title: "New Game Added!",
     message: "1v1.lol is now available to play",
     timestamp: Date.now() - 2 * 60 * 60 * 1000, // 2 hours ago
   },
   {
-    id: 2,
+    id: 3,
     title: "New Game Added!",
     message: "Hollow Knight (New) is now available to play",
     timestamp: Date.now() - 2 * 60 * 60 * 1000, // 2 hours ago
   },
   {
-    id: 3,
+    id: 4,
     title: "Update Available",
     message: "Soundboard has been updated with new features",
     timestamp: Date.now() - 24 * 60 * 60 * 1000, // 1 day ago
   },
   {
-    id: 4,
+    id: 5,
     title: "Maintenance Complete",
     message: "All games are now running smoothly",
-    timestamp: Date.now() - 3 * 24 * 60 * 60 * 1000, // 3 days ago
-  },
-  {
-    id: 4,
-    title: "Update",
-    message: "Added a ton of new games, some games such as geometry dash, sonic robo blast, deltarune might not work for some people.",
     timestamp: Date.now() - 3 * 24 * 60 * 60 * 1000, // 3 days ago
   },
 ]
