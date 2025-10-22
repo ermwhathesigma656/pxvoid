@@ -238,10 +238,10 @@ const games = [
   },
   {
     id: 19,
-    title: "Speed Stars",
+    title: "Snow Rider 3D",
     plays: 35000,
     description: "idk what to say rlly",
-    tags: ["Speed", "Running", "Sports"],
+    tags: ["Snow", "Riding", "Focus"],
     image: "/269.png",
     gradient: "from-blue-500/20 to-green-500/20",
     isNew: true,
