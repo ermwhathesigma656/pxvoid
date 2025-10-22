@@ -247,6 +247,17 @@ const games = [
     isNew: true,
     recommended: true,
   },
+  {
+    id: 20,
+    title: "Kindergarden 1",
+    plays: 35000,
+    description: "idk what to say rlly",
+    tags: ["Kindergarden", "Kids", "Chaos"],
+    image: "/445.png",
+    gradient: "from-blue-500/20 to-green-500/20",
+    isNew: true,
+    recommended: true,
+  },
 ]
 
 function formatPlayCount(count: number): string {
