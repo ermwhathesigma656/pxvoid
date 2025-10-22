@@ -548,6 +548,8 @@ export default function HomePage() {
       window.location.href = "/games/18/index.html"
     } else if (gameId === 19) {
       window.location.href = "/games/19/index.html"
+    } else if (gameId === 20) {
+      window.location.href = "/games/20/index.html"
     } else {
       window.location.href = `/games/${gameId}/index.html`
     }
