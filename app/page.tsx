@@ -297,6 +297,17 @@ const games = [
     isNew: true,
     recommended: true,
   },
+  {
+    id: 24,
+    title: "Blacket",
+    plays: 35000,
+    description: "idk what to say rlly",
+    tags: ["Blooket Copy"],
+    image: "/167.png",
+    gradient: "from-blue-500/20 to-green-500/20",
+    isNew: true,
+    recommended: true,
+  },
 ]
 
 function formatPlayCount(count: number): string {
@@ -595,6 +606,8 @@ export default function HomePage() {
       window.location.href = "/games/22/index.html"
     } else if (gameId === 23) {
       window.location.href = "/games/23/index.html"
+    } else if (gameId === 24) {
+      window.location.href = "/games/24/index.html"
     } else {
       window.location.href = `/games/${gameId}/index.html`
     }
